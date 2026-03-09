@@ -8,6 +8,10 @@ A projekt adatbázisával kapcsolatos összes dokumentum ezen a github oldalon t
 
 ---
 
+Az adatbázist a **db-dump.sql** fájl tartalmazza. 
+
+---
+
 ## Hivatkozások:
 
 ## Fő GitHub link:
