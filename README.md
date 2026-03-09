@@ -10,6 +10,6 @@ A projekt adatbázisával kapcsolatos összes dokumentum ezen a github oldalon t
 
 ## Hivatkozások:
 
-## Trello link:
+## Fő GitHub link:
 
-https://trello.com/b/ZOUXv58n/ikt-projektmunka
+https://github.com/SzabolcsBodi756/Arcade-Mania
