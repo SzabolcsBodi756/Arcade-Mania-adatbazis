@@ -54,10 +54,22 @@ VALUES
 ('dd4c8625-d2a4-11f0-906c-fc5cee8cf808', 'Memory'),
 ('dd4c8740-d2a4-11f0-906c-fc5cee8cf808', 'Snake');
 
+-- User hozzáadása admin szerepkörrel, felhasználónév: "admin", jelszó: "admin"
+INSERT INTO users (id, user_name, password_hash, role)
+VALUES
+('dd744019-41ef-46ab-9795-9fe5ce9266bc', 'admin', '/RQwb12wid86pG2YeLlU8Q==', 'Admin');
+
+-- A felhasználóhoz tartozó adatok, amit adott esetben a rendszer magától hozna létre
+INSERT INTO user_high_scores (user_id, game_id, high_score)
+VALUES
+('dd744019-41ef-46ab-9795-9fe5ce9266bc', 'dd4c7870-d2a4-11f0-906c-fc5cee8cf808', 0),
+('dd744019-41ef-46ab-9795-9fe5ce9266bc', 'dd4c8625-d2a4-11f0-906c-fc5cee8cf808', 0),
+('dd744019-41ef-46ab-9795-9fe5ce9266bc', 'dd4c8740-d2a4-11f0-906c-fc5cee8cf808', 0);
+
 
 -- Role frissítése ha szükséges
 -- UPDATE users
--- SET role = "Admin"
+-- SET role = "Admin" -- vagy "User"
 -- WHERE user_name = '<user neve>';
 
 
